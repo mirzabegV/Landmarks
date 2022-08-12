@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina3_5" orientation="landscape" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="OldView_" customModule="Landmarks" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="iN0-l3-epB" id="4Jz-gm-fCp"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" userLabel="contentView">
+            <rect key="frame" x="0.0" y="0.0" width="404" height="382"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xF5-Gt-49L">
+                    <rect key="frame" x="0.0" y="0.0" width="404" height="382"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Simple Label Text" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Et-Ln-X60">
+                            <rect key="frame" x="48.5" y="168.5" width="307" height="45"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="38"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemTealColor"/>
+                    <constraints>
+                        <constraint firstItem="0Et-Ln-X60" firstAttribute="centerX" secondItem="xF5-Gt-49L" secondAttribute="centerX" id="ovd-cU-lTl"/>
+                        <constraint firstItem="0Et-Ln-X60" firstAttribute="centerY" secondItem="xF5-Gt-49L" secondAttribute="centerY" id="vd1-og-yag"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemIndigoColor"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="xF5-Gt-49L" secondAttribute="bottom" id="1lf-0s-Sbr"/>
+                <constraint firstItem="xF5-Gt-49L" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Leu-fa-kuR"/>
+                <constraint firstItem="xF5-Gt-49L" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="d67-TF-w5m"/>
+                <constraint firstAttribute="trailing" secondItem="xF5-Gt-49L" secondAttribute="trailing" id="fcZ-KT-O1e"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="heightClass=compact-widthClass=regular">
+                <nil key="tintColor"/>
+            </variation>
+            <variation key="heightClass=regular-widthClass=compact">
+                <nil key="tintColor"/>
+            </variation>
+            <point key="canvasLocation" x="130.43478260869566" y="246.42857142857142"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemIndigoColor">
+            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
